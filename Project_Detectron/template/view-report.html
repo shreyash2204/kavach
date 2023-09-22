@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap"
+        />
+        <link
+          rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source Sans Pro:wght@700&display=swap"
+        />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="/style/nav.css">
+        <link rel="stylesheet" href="/style/view-report.css">
+        <link rel="shortcut icon" type="image/x-icon" href="/public/logo@2x.ico">
+        <title>DETECTRON</title>
+        <link rel="stylesheet" href="/style/preloader.css">
+    </head>
+<body>
+    <div id="preloader"></div>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <a href="main.html"><img src="/public/logo@2x.png" alt=""></a>
+            </div>
+            <ul class="link">
+                <li><a href="dashboard.html"><b>DASHBOARD</b></a></li>
+                <li><a href=""><b>FAQ</b></a></li>
+                <li><a href="https://www.google.com/maps"><b>MAP</b></a></li>
+                <li><a href=""><b>NOTIFICATION</b></a></li>
+                <li><a href=""><b>NEWS</b></a></li>
+            </ul>
+            <div class="profile">
+                <i class="fa-solid fa-user" style="color: #000000d5;"></i>
+            </div>
+            <div class="toggle-btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+        <div class= "dropdown-menu">
+            <li><a href="dashboard.html">DASHBOARD</a></li>
+            <li><a href="">FAQ</a></li>
+            <li><a href="https://www.google.com/maps">MAP</a></li>
+            <li><a href="">NOTIFICATION</a></li>
+            <li><a href="">NEWS</a></li>
+        </div>
+    </header>
+    <div class="container">
+        <div class="sidenav">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="dashboard.html" class="sidenav-item">
+                            <i class="fas fa-solid fa-sliders"></i>
+                            <span class="nav-item">Info Panel</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="view-report.html" class="sidenav-item">
+                            <div class="on"></div>
+                            <i class="fas fa-regular fa-file-lines"></i>
+                            <span class="nav-item">View Report</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="bookmark.html" class="sidenav-item">
+                            <i class="fas fa-regular fa-bookmark"></i>
+                            <span class="nav-item">Bookmarked</span>
+                        </a>
+                    <!-- </li>
+                    <li>
+                        <a href="" class="sidenav-item">
+                            <i class="fas fa-regular fa-file-zipper"></i>
+                            <span class="nav-item">Incident Log</span>
+                        </a>
+                    </li> -->
+                    <li>
+                        <a href="analylitics.html" class="sidenav-item">
+                            <i class="fas fa-solid fa-magnifying-glass-chart"></i>
+                            <span class="nav-item">Analytics and Insights</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="casehistory.html" class="sidenav-item">
+                            <i class="fas fa-solid fa-clock-rotate-left"></i>
+                            <span class="nav-item">Case History</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="application.html" class="sidenav-item">
+                            <i class=" fas fa-solid fa-file-invoice"></i>
+                            <span class="nav-item">Application</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="sidenav-item">
+                            <i class="fas fa-solid fa-envelope-open-text"></i>
+                            <span class="nav-item">Citizen Reporting</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="sidenav-item">
+                            <i class="fas fa-regular fa-id-badge"></i>
+                            <span class="nav-item">My Profile</span>
+                        </a>
+                    </li>
+                    <!-- <li>
+                        <a href="" class="sidenav-item">
+                            <i class="fas fa-solid fa-magnifying-glass"></i>
+                            <span class="nav-item">Profile Search</span>
+                        </a>
+                    </li> -->
+                    <!-- <li>
+                        <a href="" class="sidenav-item">
+                            <i class="fas fa-solid fa-gear"></i>
+                            <span class="nav-item">Setting</span>
+                        </a>
+                    </li> -->
+                    <li>
+                        <a href="/index.html" class="sidenav-item" >
+                            <i class="fas fa-sign-out-alt"></i>
+                            <span class="nav-item">Log-Out</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <section class="main">
+            <section class="reports">
+                <div class="report-details">
+                    <table class="table-1">
+                        <thead>
+                            <tr>
+                                <th>S.No.</th>
+                                <th>Alert Type</th>
+                                <th>Date</th>
+                                <th>Time</th>
+                                <th>Location</th>
+                                <th>Incident type</th>
+                                <th>Image and Videos Of the Incident</th>
+                                <th>Suspected Information</th>
+                                <th>Remarks</th>
+                                <th>Description</th>
+                                <th>Supporting Statement</th>
+                                <th>Status</th>
+                                <th>verification</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>01</td>
+                                <td>A Div</td>
+						        <td>Replacement - Lost card</td>
+						        <td>2/4/2023</td>
+						        <td>2:30pm</td>
+							    <td>234, street</td>
+							    <td>Street Fight</td>
+							    <td><img src="/public/street fight.png" alt=""> <img src="/public/street fight.png" alt=""></td>
+							    <td>-</td>
+                                <td>User:- <br>Lo:- <br>Ops:- <br>A&F:- </td>
+                                <td>-</td>
+                                <td>Stage 1/5 pending user view</td>
+                                <td>verified <br>unverified</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="dropdown-1">
+                        <input type="checkbox" id="dropdown">
+                        <label class="dropdown__face" for="dropdown">
+                            <div class="dropdown__text">Show More</div>
+                            <div class="dropdown__arrow"></div>
+                        </label>
+                        <ul class="dropdown__items">
+                            <li>Edit</li>
+                            <li>View Details</li>
+                            <li>Delete</li>
+                            <li>Bookmark</li>
+                        </ul>
+                    </div>
+                    <table class="table-2">
+                        <thead>
+                            <tr>
+                                <th>S.No.</th>
+                                <th>Alert Type</th>
+                                <th>Date</th>
+                                <th>Time</th>
+                                <th>Location</th>
+                                <th>Incident type</th>
+                                <th>Image and Videos Of the Incident</th>
+                                <th>Suspected Information</th>
+                                <th>Remarks</th>
+                                <th>Description</th>
+                                <th>Supporting Statement</th>
+                                <th>Status</th>
+                                <th>verification</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>02</td>
+                                <td>A Div</td>
+						        <td>Replacement - Lost card</td>
+						        <td>2/4/2023</td>
+						        <td>2:30pm</td>
+							    <td>234, street</td>
+							    <td>Street Fight</td>
+							    <td><img src="/public/street fight.png" alt=""> <img src="/public/street fight.png" alt=""></td>
+							    <td>-</td>
+                                <td>User:- <br>Lo:- <br>Ops:- <br>A&F:- </td>
+                                <td>-</td>
+                                <td>Stage 1/5 pending user view</td>
+                                <td>verified <br>unverified</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="dropdown-1">
+                        <input type="checkbox" id="dropdown">
+                        <label class="dropdown__face" for="dropdown">
+                            <div class="dropdown__text">Show More</div>
+                            <div class="dropdown__arrow"></div>
+                        </label>
+                        <ul class="dropdown__items">
+                            <li>Edit</li>
+                            <li>View Details</li>
+                            <li>Delete</li>
+                            <li>Bookmark</li>
+                        </ul>
+                    </div>
+                    <table >
+                        <thead>
+                            <tr>
+                                <th>S.No.</th>
+                                <th>Alert Type</th>
+                                <th>Date</th>
+                                <th>Time</th>
+                                <th>Location</th>
+                                <th>Incident type</th>
+                                <th>Image and Videos Of the Incident</th>
+                                <th>Suspected Information</th>
+                                <th>Remarks</th>
+                                <th>Description</th>
+                                <th>Supporting Statement</th>
+                                <th>Status</th>
+                                <th>verification</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>03</td>
+                                <td>A Div</td>
+						        <td>Replacement - Lost card</td>
+						        <td>2/4/2023</td>
+						        <td>2:30pm</td>
+							    <td>234, street</td>
+							    <td>Street Fight</td>
+							    <td><img src="/public/street fight.png" alt=""> <img src="/public/street fight.png" alt=""></td>
+							    <td>-</td>
+                                <td>User:- <br>Lo:- <br>Ops:- <br>A&F:- </td>
+                                <td>-</td>
+                                <td>Stage 1/5 pending user view</td>
+                                <td>verified <br>unverified</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="dropdown-1">
+                        <input type="checkbox" id="dropdown">
+                        <label class="dropdown__face" for="dropdown">
+                            <div class="dropdown__text">Show More</div>
+                            <div class="dropdown__arrow"></div>
+                        </label>
+                        <ul class="dropdown__items">
+                            <li>Edit</li>
+                            <li>View Details</li>
+                            <li>Delete</li>
+                            <li>Bookmark</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </div>
+    <script src="/script/preloader.js"></script>
+</body>
+</html>
